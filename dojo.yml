@@ -26,6 +26,6 @@ modules:
       - import:
           dojo: example
           module: world
-          challenge: earth
+          challenge: mars
         name: Martian Planet
         description: This is a martian planet... mars.
