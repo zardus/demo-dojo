@@ -1,0 +1,32 @@
+id: example-import
+
+name: Example Import Dojo
+
+description: |
+  This is an example dojo.
+  It imports several challenges!
+  
+modules:
+
+  - import: 
+      dojo: example
+      module: hello
+      
+  - id: planet
+    name: Planet
+    description: A couple planets.
+    
+    challenges:
+    
+      - import:
+          dojo: example
+          module: world
+          challenge: earth
+          
+       - import:
+           dojo: example
+           module: world
+           challenge: earth
+         name: Martian Planet
+         description: This is a martian planet... mars.
+    
