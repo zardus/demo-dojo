@@ -18,7 +18,7 @@ modules:
           dojo: program-security
           module: memory-errors
           challenge: level-1-0
-      name: THE MINI BOSS
+        name: THE MINI BOSS
 
       - import:
           dojo: program-security
