@@ -7,23 +7,21 @@ type: example
 modules:
 
   - import:
-      dojo: example
-      module: hello
+      dojo: program-security
+      module: shellcode-injection
 
-  - id: planet
-    name: Planet
-    description: A couple planets.
+  - id: final-test
+    name: Learn to USE the shellcode!
 
     challenges:
+      - import:
+          dojo: program-security
+          module: memory-errors
+          challenge: level-1-0
+      name: THE MINI BOSS
 
       - import:
-          dojo: example
-          module: world
-          challenge: earth
-
-      - import:
-          dojo: example
-          module: world
-          challenge: mars
-        name: Martian Planet
-        description: This is a martian planet... mars.
+          dojo: program-security
+          module: memory-errors
+          challenge: level-1-0
+        name: THE FINAL BOSS
