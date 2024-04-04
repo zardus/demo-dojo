@@ -1,8 +1,8 @@
-id: example-import
+id: cope-dojo
 
-name: Example Import Dojo
+name: COPE Example Dojo
 
-type: example
+type: private
 
 modules:
 
